@@ -25,9 +25,16 @@
               "src/assets"
             ],
             "styles": [
+              "../angular-social-app/node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "../angular-social-app/src/Bootstrap/Bootstrap.css",
+              "../angular-social-app/src/Bootstrap/mdb.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "../angular-social-app/node_modules/jquery/dist/jquery.js",
+              "../angular-social-app/node_modules/@popperjs/core/dist/cjs/popper.js",
+              "../angular-social-app/src/Bootstrap/bootstrap.bundle.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +101,11 @@
         }
       }
     }
+  },
+  "cli": {
+    "schematicCollections": [
+      "@ngrx/schematics",
+      "@ngrx/schematics"
+    ]
   }
 }
